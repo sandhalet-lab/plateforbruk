@@ -654,7 +654,8 @@ def draw_sheet(sheet_w, sheet_h, parts_df, title):
         height=600,
         showlegend=False,
         hovermode=False,
-        dragmode=False,
+        dragmode=None,
+        
     )
 
     return fig
@@ -714,8 +715,15 @@ def show_sheet_views(packed_df):
             
             st.caption(caption_text)
             fig = draw_sheet(sw, sh, sheet_data, title)
-            st.plotly_chart(fig, use_container_width=True, 
-                           config={"displayModeBar": False})
+            st.plotly_chart(
+                fig,
+                use_container_width=True,
+                config={
+                    "displayModeBar": False,
+                    "scrollZoom": False,
+                    "staticPlot": False,
+                    "responsive": True,
+                    "modeBarButtonsToRemove": ["zoom2d", "pan2d", "lasso2d"]
         
         col_index += 1
 
