@@ -650,11 +650,11 @@ def draw_sheet(sheet_w, sheet_h, parts_df, title):
         paper_bgcolor="#111",
         plot_bgcolor="#333",
         margin=dict(l=10, r=10, t=50, b=20),
-        width=650,
-        height=820,
+        width=300,
+        height=600,
         showlegend=False,
-        hovermode=False
-        dragmode=False
+        hovermode=False,
+        dragmode=False,
     )
 
     return fig
