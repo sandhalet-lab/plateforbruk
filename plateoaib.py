@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="ALX plateberegning", layout="wide")
 
+st.image("logo.png", width=500)  
+
 # ----- Dark theme for the whole page -----
 st.markdown(
     """
