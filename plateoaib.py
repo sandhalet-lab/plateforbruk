@@ -748,7 +748,7 @@ def calculate_base_layout(W, H, D):
 
     return pd.concat(all_results, ignore_index=True), False
 
-st.title("ALX plateforbruk — mengdeoptimalisert")
+st.title("ALX plateforbruk")
 
 with st.form("form"):
     c1, c2, c3, c4, c5 = st.columns(5)
