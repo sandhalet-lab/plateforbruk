@@ -655,7 +655,6 @@ def draw_sheet(sheet_w, sheet_h, parts_df, title):
         showlegend=False,
         hovermode=False,
         dragmode=None,
-        
     )
 
     return fig
@@ -724,6 +723,8 @@ def show_sheet_views(packed_df):
                     "staticPlot": False,
                     "responsive": True,
                     "modeBarButtonsToRemove": ["zoom2d", "pan2d", "lasso2d"]
+                }
+            )
         
         col_index += 1
 
