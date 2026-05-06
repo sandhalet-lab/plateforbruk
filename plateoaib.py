@@ -654,6 +654,7 @@ def draw_sheet(sheet_w, sheet_h, parts_df, title):
         height=820,
         showlegend=False,
         hovermode=False
+        dragmode=False
     )
 
     return fig
