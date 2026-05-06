@@ -719,10 +719,8 @@ def show_sheet_views(packed_df):
                 use_container_width=True,
                 config={
                     "displayModeBar": False,
-                    "scrollZoom": False,
-                    "staticPlot": False,
-                    "responsive": True,
-                    "modeBarButtonsToRemove": ["zoom2d", "pan2d", "lasso2d"]
+                    "staticPlot": True,
+                    "responsive": True
                 }
             )
         
