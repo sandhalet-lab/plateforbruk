@@ -1,6 +1,4 @@
-import math
-import itertools
-import pandas as pd
-import streamlit as st
-from rectpack import newPacker
-import plotly.graph_objects as go
+streamlit
+pandas
+rectpack
+plotly
